@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+       
+       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+           <a class="navbar-brand" href="#">Image Gallery</a>
+           <ul class="nav navbar-nav navbar-right">
+               <li class="active">
+                   <a class="btn btn-primary" data-toggle="modal" data-target="#myModalhref">Login</a>
+               </li>
+           </ul>
+       </nav>
+
+       
+        
+        <div class="modal fade" id="modal-id">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Login</h4>
+                    </div>
+                    <div class="modal-body">
+                     
+                    </div>
+                    <div class="modal-footer">
+                    
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="jumbotron">
+            <div class="container">
+                <h1>My Image Gallery</h1>
+                <p>This image gallery is created with bootstrap</p>
+                <p>
+                    <a class="btn btn-primary btn-lg">Learn more</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="container">
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+               <div class="well center-block">
+                    <img src="http://www.cakesncraft.com/cnc/assets/cmpRepo/products/31/image1/small/31002.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="text-center">
+                        <h4>Flower Cake</h4>
+                        <p>Text goes here...</p>
+                    </div>
+                </div>
+           </div>
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+               <div class="well center-block">
+                    <img src="https://s-media-cache-ak0.pinimg.com/736x/58/6a/da/586adac106af0b824d669424d8a0a338--geometric-cake-geometric-designs.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="text-center">
+                        <h4>Graphic Cake</h4>
+                        <p>Text goes here...</p>
+                    </div>
+                </div>
+            </div>
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+           <div class="well center-block">
+                <img src="https://s-media-cache-ak0.pinimg.com/736x/8f/0b/25/8f0b25e16eae0ca2b78919007fc3c98d--boy-birthday-cakes-th-birthday.jpg" class="img-responsive img-rounded" alt="Image">
+                <div class="text-center">
+                    <h4>Birthday Cake</h4>
+                    <p>Text goes here...</p>
+                </div>
+           </div>
+        </div>
+        
+    </body>
+</html>
